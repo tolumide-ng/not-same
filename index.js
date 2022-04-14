@@ -106,6 +106,6 @@ export const isObjNotSame = (obj1, obj2) => {
     }
 };
 
-module.exports = function notSame(a, b) {
-    return isObjNotSame(a, b);
+module.exports = function isObjSame(a, b) {
+    return !isObjNotSame(a, b);
 };

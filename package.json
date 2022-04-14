@@ -1,12 +1,20 @@
 {
-  "name": "not-same",
-  "version": "1.0.0",
-  "description": "",
+  "name": "is-obj-same",
+  "version": "0.0.1",
+  "description": "-   Inspired by the absence of deep equality check for objects in javascript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "tolumide",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolumide-ng/not-same.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tolumide-ng/not-same/issues"
+  },
+  "homepage": "https://github.com/tolumide-ng/not-same#readme"
 }
